@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Practical AI pilots for Saudi businesses — measurable in 6–8 weeks.',
     url: 'https://leenai.sa',
     siteName: 'LeenAI',
-    images: [{ url: '/og/home.png', width: 1200, height: 630 }],
+    images: [{ url: '/og/logo-card.svg', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'website'
   },
@@ -32,7 +32,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header className="site-header">
           <div className="container navbar">
-            <a className="logo" href="/">LeenAI</a>
+            <a className="logo" href="/">
+              <img src="/logo.svg" alt="LeenAI" style={{height:28, width:28, marginRight:8}} />
+              <span><span style={{fontWeight:700}}>Leen</span><span style={{color:'#00AEBF', fontWeight:700}}>AI</span></span>
+            </a>
             <ul className="nav">
               <li><a href="/solutions">Solutions</a></li>
               <li><a href="/use-cases">Use Cases</a></li>

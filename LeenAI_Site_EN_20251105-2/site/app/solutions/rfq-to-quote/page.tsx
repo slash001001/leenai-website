@@ -3,7 +3,7 @@
   export const metadata: Metadata = {
     title: 'LeenAI — SmartQuote (RFQ → Quote)',
     description: 'CPQ-light pilot: from ERP/Excel to branded PDF in minutes with audit trail and approval gates. Target: TtQ ↓ 50%+',
-    openGraph: { images: ['/og/solutions.png'] }
+    openGraph: { images: ['/og/logo-card.svg'] }
   };
 
 export default function Page() {

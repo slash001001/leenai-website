@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" aria-labelledby="title desc" role="img">
+  <title>LeenAI OpenGraph Card</title>
+  <desc>Gradient background with rotational logo and wordmark</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00AEBF"/>
+      <stop offset="100%" stop-color="#0B3D5C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- watermark pattern -->
+  <g opacity="0.08" transform="translate(1000,80) scale(1.2)">
+    <g transform="translate(0,0)">
+      <defs>
+        <path id="petal" d="M0,-76 C24,-70 36,-38 12,-12 C-6,6 -28,12 -40,0 C-16,-8 -8,-20 -2,-40 C2,-54 4,-66 0,-76 Z" />
+      </defs>
+      <use href="#petal" fill="#2CA9C4" transform="rotate(0)"/>
+      <use href="#petal" fill="#2499BB" transform="rotate(30)"/>
+      <use href="#petal" fill="#1F87AE" transform="rotate(60)"/>
+      <use href="#petal" fill="#196C97" transform="rotate(90)"/>
+      <use href="#petal" fill="#155C87" transform="rotate(120)"/>
+      <use href="#petal" fill="#114C76" transform="rotate(150)"/>
+      <use href="#petal" fill="#0F456E" transform="rotate(180)"/>
+      <use href="#petal" fill="#0D3F67" transform="rotate(210)"/>
+      <use href="#petal" fill="#0C3A61" transform="rotate(240)"/>
+      <use href="#petal" fill="#0B365D" transform="rotate(270)"/>
+      <use href="#petal" fill="#0B3D5C" transform="rotate(300)"/>
+      <use href="#petal" fill="#00AEBF" transform="rotate(330)"/>
+    </g>
+  </g>
+  <!-- main content -->
+  <g transform="translate(120,140)">
+    <g transform="translate(0,0)">
+      <g transform="translate(0,0)">
+        <g transform="translate(0,0)">
+          <g transform="translate(0,0)">
+            <!-- central swirl logo -->
+            <g transform="translate(0,0)">
+              <g transform="translate(0,0)">
+                <g transform="translate(0,0)">
+                  <g transform="translate(0,0)">
+                    <defs>
+                      <path id="p2" d="M0,-90 C28,-82 42,-44 14,-14 C-8,8 -32,14 -48,0 C-20,-10 -10,-24 -3,-50 C2,-64 5,-78 0,-90 Z" />
+                    </defs>
+                    <use href="#p2" fill="#2CA9C4" transform="rotate(0)"/>
+                    <use href="#p2" fill="#2499BB" transform="rotate(30)"/>
+                    <use href="#p2" fill="#1F87AE" transform="rotate(60)"/>
+                    <use href="#p2" fill="#196C97" transform="rotate(90)"/>
+                    <use href="#p2" fill="#155C87" transform="rotate(120)"/>
+                    <use href="#p2" fill="#114C76" transform="rotate(150)"/>
+                    <use href="#p2" fill="#0F456E" transform="rotate(180)"/>
+                    <use href="#p2" fill="#0D3F67" transform="rotate(210)"/>
+                    <use href="#p2" fill="#0C3A61" transform="rotate(240)"/>
+                    <use href="#p2" fill="#0B365D" transform="rotate(270)"/>
+                    <use href="#p2" fill="#0B3D5C" transform="rotate(300)"/>
+                    <use href="#p2" fill="#00AEBF" transform="rotate(330)"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <circle cx="0" cy="0" r="28" fill="#0B3D5C"/>
+    <circle cx="0" cy="0" r="64" fill="url(#glow)"/>
+    <g transform="translate(180,12)">
+      <text x="0" y="0" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Leen<tspan fill="#00E0E6">AI</tspan></text>
+      <text x="0" y="64" fill="#E6EDF7" font-family="Inter, Arial, sans-serif" font-size="28" opacity="0.9">AI Pilot Studio — measurable in 6–8 weeks</text>
+    </g>
+  </g>
+</svg>

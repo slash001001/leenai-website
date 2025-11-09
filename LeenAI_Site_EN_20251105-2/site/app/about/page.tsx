@@ -3,7 +3,7 @@
   export const metadata: Metadata = {
     title: 'LeenAI — About & Compliance',
     description: 'LeenAI team and approach: operating-partner model, evidence-first pilots, PDPL-by-design, and on‑prem/VPC options in KSA.',
-    openGraph: { images: ['/og/about.png'] }
+    openGraph: { images: ['/og/logo-card.svg'] }
   };
 
 export default function Page() {

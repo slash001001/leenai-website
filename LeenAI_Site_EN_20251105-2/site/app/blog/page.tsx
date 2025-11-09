@@ -3,7 +3,7 @@
   export const metadata: Metadata = {
     title: 'LeenAI — Blog (AI Pilots)',
     description: 'Updates and guides on AI pilots in KSA: scope, KPIs, guardrails, and acceptance best practices.',
-    openGraph: { images: ['/og/home.png'] }
+    openGraph: { images: ['/og/logo-card.svg'] }
   };
 
 export default function Page() {

@@ -11,7 +11,7 @@ html,body{ padding:0; margin:0; color:var(--text); background:var(--bg); font-fa
 .site-header{ background:var(--bg-card); border-bottom:1px solid #e5e7eb20; position: sticky; top:0; z-index:20; backdrop-filter: saturate(1.2) blur(6px); }
 .navbar{ display:flex; align-items:center; justify-content:space-between; height:60px; }
 .nav{ display:flex; gap:16px; list-style:none; margin:0; padding:0; }
-.logo{ font-weight:700; text-decoration:none; color:var(--text); padding:8px 0; }
+.logo{ display:inline-flex; align-items:center; gap:8px; font-weight:700; text-decoration:none; color:var(--text); padding:8px 0; }
 .btn{ background:var(--primary); color:#fff; padding:8px 14px; border-radius:6px; text-decoration:none; }
 .btn:hover{ opacity:.9; }
 .hero{ padding:64px 0; background-image: radial-gradient( rgba(255,255,255,0.04) 1px, transparent 1px ), linear-gradient(135deg, #00AEBF 0%, #0B3D5C 100%); background-size: 18px 18px, cover; background-position: 0 0, center; color:#fff; position:relative; overflow:hidden; }

@@ -3,7 +3,7 @@
   export const metadata: Metadata = {
     title: 'LeenAI — Café Data Platform',
     description: 'Hospitality copilots: demand forecasts, inventory reorder suggestions, and RAG on SOPs/invoices. Acceptance: accuracy ≥ 85%.',
-    openGraph: { images: ['/og/solutions.png'] }
+    openGraph: { images: ['/og/logo-card.svg'] }
   };
 
 export default function Page() {

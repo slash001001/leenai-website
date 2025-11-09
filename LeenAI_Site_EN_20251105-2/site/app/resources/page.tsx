@@ -3,7 +3,7 @@
   export const metadata: Metadata = {
     title: 'LeenAI — Resources & Downloads',
     description: 'Download LeenAI docs: Company Profile, Master SOW, and AI Factory Build Spec. Docs fire download analytics events.',
-    openGraph: { images: ['/og/resources.png'] }
+    openGraph: { images: ['/og/logo-card.svg'] }
   };
 
 export default function Page() {
