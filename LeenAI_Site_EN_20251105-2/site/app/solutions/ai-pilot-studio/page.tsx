@@ -1,4 +1,11 @@
 
+  import type { Metadata } from 'next';
+  export const metadata: Metadata = {
+    title: 'LeenAI — AI Pilot Studio (6–8 weeks)',
+    description: 'From idea to measurable AI pilot in 6–8 weeks with KPIs, guardrails, UAT, and handover. PDPL-ready with on‑prem options.',
+    openGraph: { images: ['/og/solutions.png'] }
+  };
+
 export default function Page() {
   return (
     <div className="container section">

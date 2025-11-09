@@ -9,7 +9,7 @@ export default function Page() {
       </ul>
       <h2 className="h2">Metrics & acceptance</h2>
       <ul>
-        <li>MAPE ≤ 15%</li><li>Recall ≥ 0.90 on critical defects</li><li>Answer < 3s with citations</li>
+        <li>MAPE ≤ 15%</li><li>Recall ≥ 0.90 on critical defects</li><li>Answer &lt; 3s with citations</li>
       </ul>
       <p><a className="btn" href="/contact">Book a 30‑minute assessment</a></p>
     </div>

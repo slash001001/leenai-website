@@ -2,10 +2,14 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { Inter, Poppins } from 'next/font/google';
 
 import ClientAnalytics from '../components/ClientAnalytics';
-
 import LangSwitch from '../components/LangSwitch';
+import ThemeToggle from '../components/ThemeToggle';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const poppins = Poppins({ weight: ['400','600'], subsets: ['latin'], variable: '--font-poppins' });
 
 export const metadata: Metadata = {
   title: 'LeenAI — AI Pilot Studio (KSA)',
@@ -24,10 +28,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
       <body>
         <header className="site-header">
-          <nav className="navbar">
+          <div className="container navbar">
             <a className="logo" href="/">LeenAI</a>
             <ul className="nav">
               <li><a href="/solutions">Solutions</a></li>
@@ -38,8 +42,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <li><a href="/resources">Resources</a></li>
               <li><a className="btn" href="/contact">Contact</a></li>
             </ul>
-          </nav> <LangSwitch />
-                  <div style={{position:"absolute",right:12,top:12,background:"#0b3d5c",color:"#fff",padding:"2px 6px",borderRadius:4,fontSize:12}}>Beta</div>
+            <div style={{display:'flex',alignItems:'center'}}>
+              <LangSwitch />
+              <ThemeToggle />
+            </div>
+          </div>
+          <div style={{position:"absolute",right:12,top:12,background:"#0b3d5c",color:"#fff",padding:"2px 6px",borderRadius:4,fontSize:12}}>Beta</div>
         </header>
         <main>{children}</main>
         <ClientAnalytics />

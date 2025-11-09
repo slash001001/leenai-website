@@ -1,3 +1,9 @@
+  import type { Metadata } from 'next';
+  export const metadata: Metadata = {
+    title: 'LeenAI — Solutions Overview',
+    description: 'AI Pilot Studio, RFQ→Quote (SmartQuote), and Café Data Platform — scoped pilots with KPIs and acceptance in 6–8 weeks.',
+    openGraph: { images: ['/og/solutions.png'] }
+  };
 
 export default function Page() {
   return (

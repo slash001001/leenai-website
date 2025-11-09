@@ -1,10 +1,4 @@
 
-  import type { Metadata } from 'next';
-  export const metadata: Metadata = {
-    title: 'لينAI — تواصل',
-    openGraph: { images: ['/og/contact.png'] }
-  };
-
 'use client';
 import { useState } from 'react';
 

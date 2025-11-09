@@ -1,4 +1,11 @@
 
+  import type { Metadata } from 'next';
+  export const metadata: Metadata = {
+    title: 'LeenAI — Case Studies',
+    description: 'Pilot outcomes with objective, approach, data/tools, KPI delta, and next steps. SmartQuote V1 placeholder included.',
+    openGraph: { images: ['/og/case-studies.png'] }
+  };
+
 export default function Page() {
   return (
     <div className="container section">

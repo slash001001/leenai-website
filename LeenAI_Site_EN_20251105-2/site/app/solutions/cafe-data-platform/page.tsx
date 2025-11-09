@@ -1,4 +1,11 @@
 
+  import type { Metadata } from 'next';
+  export const metadata: Metadata = {
+    title: 'LeenAI — Café Data Platform',
+    description: 'Hospitality copilots: demand forecasts, inventory reorder suggestions, and RAG on SOPs/invoices. Acceptance: accuracy ≥ 85%.',
+    openGraph: { images: ['/og/solutions.png'] }
+  };
+
 export default function Page() {
   return (
     <div className="container section">

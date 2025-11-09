@@ -9,7 +9,7 @@ export default function Page() {
       </ul>
       <h2 className="h2">Metrics & acceptance</h2>
       <ul>
-        <li>Distance/time ↓ ≥ 10–15%</li><li>On‑time ≥ 95%</li><li>Answer < 3s</li>
+        <li>Distance/time ↓ ≥ 10–15%</li><li>On‑time ≥ 95%</li><li>Answer &lt; 3s</li>
       </ul>
       <p><a className="btn" href="/contact">Book a 30‑minute assessment</a></p>
     </div>

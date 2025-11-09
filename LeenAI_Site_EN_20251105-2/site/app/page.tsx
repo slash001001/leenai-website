@@ -1,15 +1,26 @@
+import FadeIn from '../components/FadeIn';
 
 export default function Page() {
   return (
     <div>
-      <section className="hero container">
-        <h1>Practical AI pilots for Saudi businesses — measurable in 6–8 weeks.</h1>
-        <p className="small">We design focused pilots that cut Time‑to‑Quote, reduce manual hours, and unlock faster decisions — with PDPL built in.</p>
-        <p><a className="btn" href="/contact" data-ga="cta_click" data-label="home_hero_cta">Book a 30‑minute assessment</a></p>
-        <div className="kpi">
-          <div className="item"><strong>50%</strong><div>Faster Time‑to‑Quote</div></div>
-          <div className="item"><strong>70%</strong><div>Manual hours reduced</div></div>
-          <div className="item"><strong>6–8</strong><div>Weeks to measurable impact</div></div>
+      <section className="hero">
+        <div className="container">
+          <FadeIn>
+            <h1 style={{fontFamily:'var(--font-poppins)'}}>Practical AI pilots for Saudi businesses — measurable in 6–8 weeks.</h1>
+          </FadeIn>
+          <FadeIn delay={0.05}>
+            <p className="small" style={{color:'#e6edf7'}}>We design focused pilots that cut Time‑to‑Quote, reduce manual hours, and unlock faster decisions — with PDPL built in.</p>
+          </FadeIn>
+          <FadeIn delay={0.1}>
+            <p><a className="btn" href="/contact" data-ga="cta_click" data-label="home_hero_cta" style={{background:'#00AEBF'}}>Book a 30‑minute assessment</a></p>
+          </FadeIn>
+          <FadeIn delay={0.15}>
+            <div className="kpi">
+              <div className="item"><strong>50%</strong><div>Faster Time‑to‑Quote</div></div>
+              <div className="item"><strong>70%</strong><div>Manual hours reduced</div></div>
+              <div className="item"><strong>6–8</strong><div>Weeks to measurable impact</div></div>
+            </div>
+          </FadeIn>
         </div>
       </section>
 

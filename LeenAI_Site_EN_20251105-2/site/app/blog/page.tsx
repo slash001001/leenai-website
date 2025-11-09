@@ -1,4 +1,11 @@
 
+  import type { Metadata } from 'next';
+  export const metadata: Metadata = {
+    title: 'LeenAI — Blog (AI Pilots)',
+    description: 'Updates and guides on AI pilots in KSA: scope, KPIs, guardrails, and acceptance best practices.',
+    openGraph: { images: ['/og/home.png'] }
+  };
+
 export default function Page() {
   return (
     <div className="container section">
