@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "name": "lead_submit",
+      "params": [
+        "form_id",
+        "page_path"
+      ]
+    },
+    {
+      "name": "book_call",
+      "params": [
+        "link_href",
+        "page_path"
+      ]
+    },
+    {
+      "name": "cta_click",
+      "params": [
+        "cta_label",
+        "page_path"
+      ]
+    },
+    {
+      "name": "doc_download",
+      "params": [
+        "doc_name",
+        "page_path"
+      ]
+    }
+  ]
+}

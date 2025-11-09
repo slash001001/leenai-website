@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "AI Pilot Studio",
+  "provider": {
+    "@type": "Organization",
+    "name": "LeenAI",
+    "url": "https://leenai.sa"
+  },
+  "areaServed": "SA",
+  "audience": {
+    "@type": "BusinessAudience",
+    "name": "KSA SMEs and Enterprises"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "SAR",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": 60000,
+      "maxPrice": 80000
+    }
+  }
+}

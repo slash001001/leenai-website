@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://leenai.sa",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://leenai.sa/search?q={query}",
+    "query-input": "required name=query"
+  }
+}

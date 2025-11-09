@@ -1,0 +1,33 @@
+{
+  "color": {
+    "bg": "#F8FAFC",
+    "text": "#0F172A",
+    "muted": "#475569",
+    "primary": "#2563EB",
+    "accent": "#0EA5E9",
+    "success": "#16A34A",
+    "warning": "#D97706",
+    "danger": "#DC2626"
+  },
+  "typography": {
+    "family": "Inter",
+    "scale": [
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      32,
+      42
+    ]
+  },
+  "spacing": {
+    "unit": 8,
+    "container": [
+      960,
+      1200,
+      1280
+    ]
+  }
+}

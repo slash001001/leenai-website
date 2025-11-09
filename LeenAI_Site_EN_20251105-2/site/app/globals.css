@@ -1,0 +1,23 @@
+
+:root { --bg:#F8FAFC; --text:#0F172A; --muted:#475569; --primary:#2563EB; --accent:#0EA5E9; }
+* { box-sizing: border-box; }
+html,body{ padding:0; margin:0; color:var(--text); background:var(--bg); font-family: ui-sans-serif, system-ui, Inter, Arial; }
+.container{ max-width:1200px; margin:0 auto; padding:0 16px; }
+.site-header{ background:#fff; border-bottom:1px solid #e5e7eb; position: sticky; top:0; z-index:20; }
+.navbar{ display:flex; align-items:center; justify-content:space-between; height:60px; }
+.nav{ display:flex; gap:16px; list-style:none; margin:0; padding:0; }
+.logo{ font-weight:700; text-decoration:none; color:var(--text); padding:8px 0; }
+.btn{ background:var(--primary); color:#fff; padding:8px 14px; border-radius:6px; text-decoration:none; }
+.hero{ padding:48px 0; }
+.hero h1{ font-size:42px; line-height:1.1; margin:0 0 12px; }
+.kpi{ display:flex; gap:16px; margin:16px 0; flex-wrap:wrap; }
+.kpi .item{ background:#fff; border:1px solid #e5e7eb; border-radius:8px; padding:14px; min-width:180px; }
+.section{ padding:40px 0; }
+.grid{ display:grid; grid-template-columns: repeat(12, 1fr); gap:20px; }
+.card{ background:#fff; border:1px solid #e5e7eb; border-radius:10px; padding:18px; }
+.faq dt{ font-weight:600; margin-top:12px; }
+.faq dd{ margin:0 0 10px 0; color:var(--muted); }
+.site-footer{ margin-top:48px; background:#fff; border-top:1px solid #e5e7eb; padding:24px 0; }
+.h2{ font-size:24px; margin:0 0 12px; }
+.small{ color:var(--muted); font-size:14px; }
+.tag{ display:inline-block; background:#e5efff; color:#1e40af; padding:4px 8px; border-radius:999px; margin-right:8px; font-size:12px; }

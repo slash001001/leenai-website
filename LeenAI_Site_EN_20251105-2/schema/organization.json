@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "LeenAI",
+  "url": "https://leenai.sa",
+  "logo": "https://leenai.sa/logo.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "email": "hello@leenai.sa",
+      "areaServed": "SA"
+    }
+  ]
+}

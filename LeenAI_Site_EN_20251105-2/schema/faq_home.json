@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will data leave KSA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Default is on\u2011prem or KSA cloud with data minimization and RBAC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is a pilot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "6\u20138 weeks with defined KPIs and acceptance tests."
+      }
+    }
+  ]
+}

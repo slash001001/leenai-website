@@ -1,0 +1,45 @@
+{
+  "home": {
+    "path": "/",
+    "title": "LeenAI \u2014 AI Pilot Studio for Saudi SMEs (6\u20138\u2011week results)",
+    "meta": "Practical AI pilots that cut Time\u2011to\u2011Quote, reduce manual hours, and deliver measurable outcomes in 6\u20138 weeks. PDPL\u2011ready, on\u2011prem options.",
+    "h1": "Practical AI pilots for Saudi businesses \u2014 measurable in 6\u20138 weeks",
+    "keywords": [
+      "ai pilot studio ksa",
+      "cpq automation",
+      "rag saudi",
+      "pdpl ai",
+      "odoo ai",
+      "zoho ai",
+      "hospitality ai",
+      "manufacturing ai"
+    ],
+    "og": {
+      "image": "/og/home.png"
+    }
+  },
+  "routes": {
+    "/solutions": "Solutions",
+    "/solutions/ai-pilot-studio": "AI Pilot Studio",
+    "/solutions/rfq-to-quote": "RFQ \u2192 Quote (CPQ\u2011light)",
+    "/solutions/cafe-data-platform": "Caf\u00e9 Data Platform",
+    "/architecture": "Architecture",
+    "/catalog": "Pilot Catalog",
+    "/integrations": "Integrations",
+    "/use-cases": "Use Cases",
+    "/use-cases/manufacturing": "Manufacturing",
+    "/use-cases/hospitality": "Hospitality",
+    "/use-cases/trading-distribution": "Trading & Distribution",
+    "/use-cases/financial-services": "Financial Services",
+    "/use-cases/real-estate-professional": "Real Estate & Professional Services",
+    "/use-cases/logistics-supply": "Logistics & Supply",
+    "/case-studies": "Case Studies",
+    "/about": "About",
+    "/blog": "Blog",
+    "/blog/ai-pilot-studio-ksa": "AI Pilot Studio in KSA \u2014 Guide",
+    "/contact": "Contact",
+    "/privacy": "Privacy & PDPL",
+    "/terms": "Terms",
+    "/security": "Security"
+  }
+}

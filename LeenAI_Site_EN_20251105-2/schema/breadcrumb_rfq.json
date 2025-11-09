@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Solutions",
+      "item": "https://leenai.sa/solutions"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "RFQ \u2192 Quote Pilot",
+      "item": "https://leenai.sa/solutions/rfq-to-quote"
+    }
+  ]
+}
